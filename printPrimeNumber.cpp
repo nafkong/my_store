@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
 int main()
 {
@@ -9,7 +10,7 @@ int main()
     for (i = 2; i < a; i++)
     {
         b = 0;
-        for (j = i-1; j > 0; j--)
+        for (j = 1; j < i; j++)
         { 
             c = i % j;
             if (!c)
