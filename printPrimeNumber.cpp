@@ -10,7 +10,7 @@ int main()
     {
         b = 0;
         for (j = i-1; j > 0; j--)
-        {
+        { 
             c = i % j;
             if (!c)
                 b++;
